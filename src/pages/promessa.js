@@ -14,7 +14,7 @@ export default function Promessa() {
     return <>
         <Menu />
         <Container>
-            Promessa {pao === "" ? <img src="./loading_2.gif" width={60} height={30} /> : pao}
+            Promessa {pao === "" ? <img src="./carregando.gif" width={60} height={30} /> : pao}
         </Container>
         <Footer />
     </>
